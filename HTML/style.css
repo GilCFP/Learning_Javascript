@@ -1,0 +1,43 @@
+body {
+background: rgb(230, 230, 230);
+
+}
+
+
+#title, .subtitle , .post_title{/* definindo cor para todos os títulos*/
+color: rgb(138, 24, 24);
+font-family: 'Times New Roman', Times, serif;
+}   .post_title{ /* alterações na fonte da seção para itálico e 16 pixels*/
+font-size: 16;
+font-style: italic;
+}
+#title{
+text-decoration: underline dashed rgb(0, 0, 0)  ;    
+text-align: center;
+}
+.post{ 
+background: white; /* definindo cor do backbround para dar destaque na caixa*/
+padding: 10px; /* espaçamento entre o inicio do titulo biografia e o inicio do bloco destinado a mesma */
+border: 2px dashed black; /* Definindo borda preta para enquadrar a sessão */
+margin: 20px /* definindo espaçamento entre a o bloco como um todo e a borda da pagina em si */
+}
+#Imagem_1{
+position: relative;
+left: 50% ; /*posicionando o CANTO SUPERIOR ESQUERDO da imagem no centro da pagina*/
+margin-left: -37px; /*deslocando metaded da imagem para a esquerda para que assim fique centralizada*/
+margin-top: 20px; /* criando um recuo do topo da pagina para fins estéticos*/
+}
+.rodape{
+background-image: url(imagem_fundo.jpg);
+border: solid 3px rgb(138, 24, 24);
+}
+#Contato{
+text-align: center;    
+text-decoration: underline;
+}
+.linha{
+ color: rgb(138, 24, 24);
+}
+.lista{
+color: white;   list-style-type: circle;    
+}
